@@ -1,0 +1,91 @@
+body {
+	background-image: url(../images/the_legend_of_zelda_ocarina_of_time_3d-wallpaper-2560x2048.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+}
+
+.wrapper { 
+	margin: 0 auto;
+	width: 550px;
+	height: 500px;
+	border: 3px dotted white;
+	border-radius: 20px;
+
+}
+
+#boxed { 
+	margin: 0 auto;
+	float: right;
+	width: 240px;
+	height: 450px;
+	text-align: center; 
+	
+}
+
+#press {
+	margin: 0 auto;
+	float: right;
+	width: 240px;
+	height: 50px;
+	text-align: center; 
+	border: 3px dotted white;
+	border-radius: 20px;
+}
+
+#wins {
+	margin: 0 auto;
+	float: right;
+	width: 240px;
+	height: 50px;
+	text-align: center; 
+	border: 3px dotted white;
+	border-radius: 20px;
+}
+#currentWord {
+	margin: 0 auto;
+	float: right;
+	width: 240px;
+	height: 50px;
+	text-align: center; 
+	border: 3px dotted white;
+	border-radius: 20px;
+}
+#guesses {
+	margin: 0 auto;
+	float: right;
+	width: 240px;
+	height: 50px;
+	text-align: center; 
+	border: 3px dotted white;
+	border-radius: 20px;
+}
+#guessed {
+	margin: 0 auto;
+	float: right;
+	width: 240px;
+	height: 50px;
+	text-align: center; 
+	border: 3px dotted white;
+	border-radius: 20px;
+}
+
+
+#hangBox {
+	margin: 0 auto;
+	float: left;
+	width: 240px;
+	height: 450px;
+	text-align: center; 
+	border: 3px dotted white;
+	border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+        background-size: cover
+    }
+}
